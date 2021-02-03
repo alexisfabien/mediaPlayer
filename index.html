@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Media Player</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="video_player">
+        <video id="my_video" src="img_vids/wahyne-gueule-clip-officiel.mp4"></video> 
+        <div id="control_bar">
+           <button id="playPauseButton"><img id="imgplaypause" src="icons/play.png" alt="play"></button>
+           <button id="backward"><img src="icons/reculer.png" alt="reculer"></button>
+           <button id="forward"><img src="icons/avancer.png" alt="avancer"></button>
+           <input type="range" id="seekslider" min="0" max="100" value="0">
+           <span id="currentTimeText"></span> / <span id="durationTimeText"></span>
+           <button id="mutebtn">Mute</button>
+           <input type="range" id="volumeslider" min="0" max="100" value="100">
+           
+
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+</html>

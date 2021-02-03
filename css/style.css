@@ -1,0 +1,27 @@
+
+
+#video_player {
+    background: darkblue;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 45%;
+    height: auto;
+    margin: 0px auto;
+    padding: 10px;
+}
+
+#control_bar {
+    display: flex;
+    background: cornflowerblue;
+    padding: 5px;
+}
+
+#seekslider {
+    width: 45%;
+    margin-left: 5px;
+}
+
+#volumeslider {
+    width: 20%;
+}
